@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "taschenrechner",
+  "version": "1.0.0",
+  "name": "Taschenrechner",
+  "description": "Öffnet mit der Taste X einen Taschenrechner.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.taschenrechner.TaschenrechnerMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
